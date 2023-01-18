@@ -4,5 +4,9 @@
 
 > IronRadar is a threat intelligence feed that enables cybersecurity teams to proactively block and gather context on malicious
 > adversary infrastructure. It provides security operations, incident response, and cyber threat intelligence teams with everything
-> they need to quickly detect C2 servers before they are used in an attack and take action against today’s most sophisticated
+> they need to quickly detect C2 servers, and other attacker infrastructure, before they are used in an attack and take action against today’s most sophisticated
 > attackers.
+
+This directory contains public IOC files that have been provided to the community.
+
+:warning: Threat research data may contain false positives as it is extracted from threats AS IS. IronNet only recommends blocking indicators labeled with a confidence level of `High`.
