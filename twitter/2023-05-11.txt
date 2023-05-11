@@ -1,0 +1,70 @@
+# As you can see below, the watermark is just a single attribute to pivot off of. Our team uses a combination of attributes such as
+# watermarks, teamserver publickey MD5, TLS cert details, Cobalt Strike version, and a host of other attributes to determine the likelihood of a cluster.
+# The indicators below are provided as is, and were collected from active Cobalt Strike servers.
+
+# Kasperslkyupdate[.]com - Watermark: 12345
+
+107.189.31.52 # server hosting
+Omg1.kasperslkyupdate.com #C2
+Omg2.kasperslkyupdate.com #C2
+
+45.61.186.9 # server hosting
+107.189.3.56 # server hosting
+sn1ff1.kasperslkyupdate.com  #C2
+sn1ff2.kasperslkyupdate.com #C2 
+
+omg2.kasperslkyupdate.com #server hosting
+cache05.micnosoftupdate.com #C2
+cache06.micnosoftupdate.com #C2
+
+# kasperskyupdates[.]com - Watermark: 1580103824 & 12345
+
+198.98.53.34 # server hosting & C2
+209.141.53.178 # server hosting
+upd.kasperskyupdates.com #C2
+Dl.kasperskyupdates.com #C2
+
+
+# All subdomains captured under micnosoftupdate[.]com - Watermark: 587247372 & 12345
+
+s173.minrosoftupdate.com
+winlog03.micnosoftupdates.com
+s172.minrosoftupdate.com 
+winlog02.micnosoftupdates.com
+cache.micnosoftupdate.com
+cache01.micnosoftupdate.com
+cache02.micnosoftupdate.com
+cache03.micnosoftupdate.com
+cache04.micnosoftupdate.com
+cache05.micnosoftupdate.com
+cache06.micnosoftupdate.com
+
+# The watermark: 587247372 is entierly new as of March 2023 and has never appeared in our detections prior. These are all the domains in the last 90 days with this watermark:
+
+mirrordirectory.com
+upd343.winserverupdates.com
+s-01.defendersupdate.com
+s-02.defendersupdate.com
+0xx1.kaspemskyupdate.com
+141.98.6.7
+80.94.95.116
+cache.micnosoftupdate.com
+cloudateup.online
+msf-sql.com
+s-03.defendersupdate.com
+45.88.67.140
+95.169.182.61
+cache01.micnosoftupdate.com
+cache02.micnosoftupdate.com
+cache03.micnosoftupdate.com
+cache04.micnosoftupdate.com
+cdmcloudw.online
+d4ng3r.s01kaspersky.com
+log0x1.s01kaspersky.com
+msupd.wimdowupdate.com
+s-01.winserverupdates.com
+s-03.winserverupdates.com
+s15.kaspenskyupdate.com
+s41nt2.s01kaspersky.com
+situotech.com
+upd232.windowservicecentar.com
